@@ -42,7 +42,8 @@ input {
 }
 
 input:focus {
-	box-shadow: 0 0 0 2px rgb(110, 168, 255);
+	box-shadow: 0 0 0 1.5px rgb(132, 181, 255);
+	border-color: rgb(0, 102, 255);
 	outline: none;
 }
 
@@ -57,9 +58,11 @@ button {
 	font-size: 16px;
 	transition: 0.1s;
 	cursor: pointer;
+	background-color: rgb(255, 255, 255);
 }
 
 button:focus {
-	box-shadow: 0 0 0 2px rgb(110, 168, 255);
+	box-shadow: 0 0 0 1.5px rgb(132, 181, 255);
+	border-color: rgb(0, 102, 255);
 	outline: none;
 }
